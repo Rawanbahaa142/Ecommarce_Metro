@@ -21,8 +21,8 @@ body {
 ul {
   list-style: none;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -57,13 +57,11 @@ html {
   padding-top: 0.8rem !important;
   padding-bottom: 0.8rem !important;
 }
-.h-300
-{
-    height: 300px;
+.h-300 {
+  height: 300px;
 }
-.fs-1{
-    font-size: 1.2rem !important;
-
+.fs-1 {
+  font-size: 1.2rem !important;
 }
 .focus\:border-none:focus {
   border: none !important;
@@ -197,11 +195,11 @@ form[role="search"] button:hover {
   color: var(--btn-color);
 }
 .separator {
-  border-right: 1px solid #6c757d75; 
+  border-right: 1px solid #6c757d75;
   align-self: center;
   margin-left: 10px;
   margin-right: 10px;
-  padding-right: 5px;  
+  padding-right: 5px;
 }
 
 .mega-menu {
@@ -246,9 +244,9 @@ form[role="search"] button:hover {
 }
 
 .interface {
-  padding:0;
-    margin:0;
-    box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .banner {
   background-color: #fff;
@@ -263,7 +261,7 @@ form[role="search"] button:hover {
 }
 .banner h5 {
   font-size: 26px;
-    font-weight: bold;
+  font-weight: bold;
   color: var(--text-color);
   margin-bottom: 10px;
 }
@@ -280,19 +278,18 @@ form[role="search"] button:hover {
   padding: 8px 16px;
   border-radius: 4px;
   transition: background-color 0.3s;
-  border:1px solid #000;
+  border: 1px solid #000;
 }
 .top-banner {
-background-image: url('../images/banner1-mobile-demo1.jpg');
-background-size: cover;
-background-position: center;
+  background-image: url("../images/banner1-mobile-demo1.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .collection {
-background-image: url('../images/banner2-demo1.jpg');
-background-size: cover;
-background-position: center;
-
+  background-image: url("../images/banner2-demo1.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .banner img {
@@ -300,7 +297,7 @@ background-position: center;
 }
 
 .banner:hover img {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .carousel-item img {
@@ -321,7 +318,8 @@ background-position: center;
 .row.g-0 {
   margin: 0 !important;
 }
-.col-lg-8, .col-lg-4 {
+.col-lg-8,
+.col-lg-4 {
   padding: 0 !important;
 }
 
@@ -337,9 +335,9 @@ background-position: center;
   overflow: hidden;
 }
 .banner {
-    position: relative;
+  position: relative;
 
-    background-image: url('../images/banner2-demo1.jpg');
+  background-image: url("../images/banner2-demo1.jpg");
   width: 100%;
   object-fit: cover;
   z-index: -1;
@@ -424,7 +422,7 @@ background-position: center;
 }
 .icon-box i {
   font-size: 2rem;
-  color:#b1b1b1;;
+  color: #b1b1b1;
   margin-bottom: 10px;
 }
 .icon-box:hover i {
@@ -436,4 +434,179 @@ background-position: center;
   .icon-box {
     padding: 10px;
   }
+}
+.percent-badge {
+  display: inline-block;
+  font-size: 20px;
+  color: #b1b1b1;
+  position: relative;
+  padding: 10px;
+  background-color: transparent;
+
+  border: 2px solid #ddd;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 50%; /* يخلي الخلفية دايرة */
+}
+
+.circle-card {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.circle-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+
+.circle-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.4s ease;
+  font-size: 24px;
+}
+
+.circle-card:hover img {
+  transform: scale(1.05);
+}
+
+.circle-card:hover .overlay {
+  opacity: 1;
+}
+.option-Card h6:hover {
+  color: var(--btn-color);
+  cursor: pointer;
+}
+
+our-blog .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.our-blog .container .card {
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  color: #000;
+  cursor: pointer;
+}
+.our-blog .container .card .para-blog :hover {
+  color: var(--btn-color);
+  cursor: pointer;
+}
+
+.our-blog .container .card .card-body {
+  padding: 15px;
+}
+.our-blog .container .card .card-body .para-blog {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.our-blog .container .card .card-body .para-blog:hover {
+  font-size: 14px;
+  color: var(--btn-color);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.our-blog .container .card .card-title a {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+  &:hover {
+    color: var(--btn-color);
+    cursor: pointer;
+  }
+}
+.our-blog .container .card .card-text {
+  color: #aaaaaa;
+}
+.our-blog .container .card .btn {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+  padding: 8px 16px;
+  border-radius: 4px;
+  &.btn:hover {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.serch-products {
+  background-color: #a4a4a4;
+  padding: 20px 0;
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+.serch-products .coontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.category-list .list:hover {
+  color: #cd295a;
+  cursor: pointer;
+}
+.category-list a {
+  border-right: 1px solid #6c757d75;
+  align-self: center;
+  margin-left: 20px;
+  margin-right: 2%px;
+  padding-right: 5px;
+}
+.search-products {
+  background-color: #f5f5f5;
+  padding: 2%;
+  text-align: center;
+  color: #000;
+}
+.search-products .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.category-list {
+  margin-top: 20px;
+}
+.category-list a {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
+.category-list a:hover {
+  color: var(--btn-color);
+  cursor: pointer;
 }

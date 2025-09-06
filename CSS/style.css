@@ -248,29 +248,29 @@ form[role="search"] button:hover {
   margin: 0;
   box-sizing: border-box;
 }
-.banner {
+.interface .banner {
   background-color: #fff;
   border: 1px solid #ddd;
   overflow: hidden;
 }
-.banner h6 {
+.interface .banner h6 {
   font-size: 16px;
   color: var(--text-color);
   text-transform: uppercase;
   margin-bottom: 5px;
 }
-.banner h5 {
+.interface .banner h5 {
   font-size: 26px;
   font-weight: bold;
   color: var(--text-color);
   margin-bottom: 10px;
 }
-.banner p {
+.interface .banner p {
   font-size: 14px;
   color: var(--para-color);
   margin-bottom: 15px;
 }
-.banner .btn {
+.interface .banner .btn {
   font-size: 14px;
   background-color: transparent;
   color: #000;
@@ -280,32 +280,32 @@ form[role="search"] button:hover {
   transition: background-color 0.3s;
   border: 1px solid #000;
 }
-.top-banner {
+.interface .top-banner {
   background-image: url("../images/banner1-mobile-demo1.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.collection {
+.interface .collection {
   background-image: url("../images/banner2-demo1.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.banner img {
+.interface .banner img {
   transition: transform 0.3s ease;
 }
 
-.banner:hover img {
+.interface .banner:hover img {
   transform: scale(1.05);
 }
 
-.carousel-item img {
+.interface .carousel-item img {
   height: 400px !important; /* Ensure uniform height */
   object-fit: cover; /* Maintain aspect ratio */
 }
 @media (max-width: 768px) {
-  .carousel-item img {
+  .interface .carousel-item img {
     height: 250px !important; /* Adjust height for smaller screens */
   }
 }
@@ -330,11 +330,11 @@ form[role="search"] button:hover {
 }
 
 /* Banner Images */
-.banner {
+.interface .banner {
   height: 300px;
   overflow: hidden;
 }
-.banner {
+.interface .banner {
   position: relative;
 
   background-image: url("../images/banner2-demo1.jpg");
@@ -343,60 +343,60 @@ form[role="search"] button:hover {
   z-index: -1;
   transition: transform 0.3s ease;
 }
-.banner:hover img {
+.interface .banner:hover img {
   transform: scale(1.05);
 }
-.banner-text {
+.interface .banner-text {
   position: relative;
   z-index: 2;
   color: #000;
 }
 
 /* Carousel indicators */
-.carousel-indicators [data-bs-target] {
+.interface .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: #000;
 }
-.carousel-indicators .active {
+.interface .carousel-indicators .active {
   background-color: #fff;
 }
 
 @media (max-width: 768px) {
-  .carousel-item img {
+  .interface .carousel-item img {
     max-height: 250px;
   }
   .banner {
     height: 200px;
   }
 }
-.banner {
+.interface .banner {
   overflow: hidden;
   background-color: #fff;
   border: 1px solid #ddd;
 }
 
-.banner img {
+.interface .banner img {
   transition: transform 0.3s ease;
 }
 
-.banner:hover img {
-  transform: scale(1.05); /* Zoom effect on hover */
+.interface .banner:hover img {
+  transform: scale(1.05); 
 }
 
-.banner-text h6 {
+.interface .banner-text h6 {
   font-size: 14px;
   margin-bottom: 5px;
 }
 
-.banner-text h5 {
+.interface .banner-text h5 {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.banner-text p {
+.interface .banner-text p {
   font-size: 12px;
   margin-bottom: 15px;
 }
@@ -448,7 +448,7 @@ form[role="search"] button:hover {
   background-position: center;
   background-repeat: no-repeat;
 
-  border-radius: 50%; /* يخلي الخلفية دايرة */
+  border-radius: 50%;
 }
 
 .circle-card {
@@ -881,3 +881,6 @@ our-blog .container {
   padding: 2px;
   border-radius:6px;
 }
+
+
+
